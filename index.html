@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <title>symphony</title>
+        <link rel="icon" type="image/x-icon" href="favicon.png">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        
+    <h1>public breakdown</h1>
+    <div id="inner">
+        <table>
+            <tr>
+                <td>
+                    <img src="bus.png" id="bus" usemap="#seattle">
+                        <map name="seattle">
+                            <area shape="rect" coords="55,140,115,185" id="car" onclick="carAlert()" style="cursor: -webkit-grab; cursor: grab;">
+                            <area shape="rect" coords="150,75,160,100" id="clock" onclick="clockAlert()" style="cursor: -webkit-grab; cursor: grab;">
+                            <area shape="rect" coords="165,110,225,175" id="busarea" onclick="busAlert()" style="cursor: -webkit-grab; cursor: grab;">
+                            <area shape="rect" coords="260,140,270,163" id="person" onclick="personAlert()" style="cursor: -webkit-grab; cursor: grab;">
+                        </map>
+
+                </td>
+                <td class="text">
+                    <p>i'm building the structure to a new and accomplished world, but i still feel like something's wrong. the word html doesn't make much sense to me. aitch tee em ell. aitch tee em ell. aitchteeemell <br>does that make much sense to you? i don't think so. i don't think there's a point to making any of this; i'm digging a hole in ice that's melting as fast as i carve.</p>
+                </td>
+                <td> 
+                    <div id="button" style="background-image: url('focus.png');">
+
+                        <div id="focus">
+                            <p style="margin:auto;">focus...</p>
+                        </div>
+                        
+                    </div>
+                
+                </td>
+              </tr>
+<!---->
+              <tr>
+                <td class="text">
+                    <p>the wonders of css remain a mystery to me. the newest styles and trends just seem to pass right over my head. nowadays it's all rounded corners laid on a blank landscape.. what's the deal with that? and well, okay. even if i had a vision of beauty, even if i had a moment of clarity, how would i even start to construct it? i just don't know </p>
+                </td>
+                <td>
+                    <canvas id="draw"></canvas> <script src="draw.js"></script>
+                </td>
+                <td class="text" style="padding-top:5px; padding-bottom:5px;">
+                    <p>when i first saw javascript, i felt sick to my stomach. i shouted at the console, threw a pillow at it, stomped, and cried out loud. i don't understand variables! i don't understand functions! is it possible my brain isn't wired properly, or have i seriously lost my capacity to learn? i haven't even started but i'm already tired. maybe if i wish for it hard enough, the numbers'll appear on their own.</p>
+                </td>
+              </tr>
+<!---->
+              <tr>
+                <td>
+                    <div style="display:inline; float:left;">it didn't work, which is what i was afraid of</div>
+                    <canvas id="myCanvas"></canvas>  <script src="animate.js"></script>
+                    
+                    <div id="animation2" onmouseover="Img(this)" onmouseout="ImgOut(this)">
+                        <img src="stretch0.jpg" style="height:100%; width:100%;">
+                    </div>
+                </td>
+                <td class="text">
+                    <p>learning these skills is much like learning another language, which is i guess why they're referred to as "programming languages". i stare at my computer and try to piece together the different pieces of syntax. "syntax"! what an alien word. all of this text vomit is completely foreign to me. well, it doesn't matter a whole much. at the end of the day, i look at the mess i made and wonder if i'm maybe not as cut out for this as i thought before.</p>
+                </td>
+                <td>
+                    <img src="piano original.jpg" id="piano" usemap="#sound">
+                    <map name="sound">
+                        
+                        <area shape="rect" coords="40,0,75,195" id="c sharp" onclick="playCSharp()">
+                        <area shape="rect" coords="90,0,130,195" id="d sharp" onclick="playDSharp()">
+                        <area shape="rect" coords="205,0,240,195" id="f sharp" onclick="playFSharp()">
+                        <area shape="rect" coords="260,0,295,195" id="g sharp" onclick="playGSharp()">
+                        <area shape="rect" coords="320,0,353,197" id="a sharp" onclick="playASharp()">
+
+                        <area shape="rect" coords="0,0,58,300" id="c" onclick="playC()">
+                        <area shape="rect" coords="58,0,110,300" id="d" onclick="playD()">
+                        <area shape="rect" coords="110,0,168,300" id="e" onclick="playE()">
+                        <area shape="rect" coords="168,0,222,300" id="f" onclick="playF()">
+                        <area shape="rect" coords="222,0,278,300" id="g" onclick="playG()">
+                        <area shape="rect" coords="278,0,332,300" id="a" onclick="playA()">
+                        <area shape="rect" coords="332,0,400,300" id="b" onclick="playB()">
+                    </map>
+                </td>
+              </tr>
+
+        </table>
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+html, body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 236, 92);
+    height: 860px;
+    width:1343px;
+    margin-top:5px;
+  }
+
+h1{
+  font-weight: normal;
+  text-align:center;
+}
+table{
+  margin-left:60px;
+  background-color: #22e3e3;
+  border: 5px ridge black;
+  height:90%;
+  width:90%;
+  border-collapse: collapse;
+  margin-bottom:30px;
+}
+
+td,tr{
+  border: 5px ridge black;
+}
+td{
+  width:33%;
+  height:33%;
+}
+area{
+  border:red 5px;
+  cursor:pointer;
+}
+
+.text{ 
+text-align:center;
+padding-left:20px;
+padding-right:20px;
+}
+
+.inner{
+  height:auto;
+  text-align:center;
+}
+#button {
+  height:100%;
+  width:100%;
+  color:white;
+  font-size:50px;
+  background-size: cover;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#focus{
+  text-transform: uppercase;
+  margin:auto;
+  text-align:center;
+  padding-top:20%;
+  
+}
+#bus{
+  height:100%;
+  width:100%;
+  
+}
+#draw{
+  cursor:crosshair;
+  background-color:rgb(135, 215, 203);
+  margin-bottom:-3px;
+}
+#myCanvas{
+  background-color:#5f6372;
+  width:195px;
+  height:302px;
+  margin-bottom:-20px;
+}
+#animation2{
+  float:right;
+  background-color:#ffffff;
+  width:50%;
+  height:100%;
+}
+#piano{
+  width:100%;
+  height:100%;
+  padding:0px;
+}
